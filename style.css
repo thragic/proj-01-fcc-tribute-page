@@ -3,6 +3,10 @@
     text-decoration: none;
 }
 
+body {
+    background-color: #ffe9cf;
+}
+
 #title {
     font-family: 'Anton', sans-serif;
     font-size: 40px;
@@ -21,26 +25,28 @@
 
 #img-div {
     margin: 0 400px;
-
 }
 
 #image {
+    max-width: 100%;
+    display: block;
     width: 400px;
-    float: left;
-    clear: right;
-    margin-right: 40px;
+    height: auto;
+    margin: 0 auto;
 }
 
 #img-caption {
     text-align: justify;
     font-family: 'Didact Gothic', sans-serif;
     font-size: 16px;
+    margin-top: 20px;
 }
 
 #tribute-info {
     text-align: justify;
     font-family: 'Didact Gothic', sans-serif;
     font-size: 16px;
+    margin-bottom: -200px;
 }
 
 #img-div2 {
@@ -49,10 +55,9 @@
 
 #image2 {
     width: 500px;
-    float: left;
-    clear: right;
-    margin-right: 40px;
-}
+    display: block;
+    margin: 0 auto;
+    }
 
 #img-caption2 {
     text-align: justify;
